@@ -3,5 +3,8 @@ I made this game as result of my first Python course at Alura, I made some refac
 
 ## You can basically run the file and have some fun:
 You also can use an
-`from hangman import Play` 
+`from hangman import play` 
 to add this module in your personal project.
+Then call it as a function:
+
+`play()`
