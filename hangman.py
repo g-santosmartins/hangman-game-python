@@ -1,6 +1,5 @@
 import random
 
-
 def play():
   wish_to_play = True
   #main logic
@@ -44,10 +43,7 @@ def play():
         print(wish_to_play)
 
 #functions
-
-  
-  
-    
+   
 def draws_player(errors):
     print("  _______     ")
     print(" |/      |    ")
@@ -98,8 +94,6 @@ def draws_player(errors):
     print("_|___         ")
     print()
 
-
-
 def prints_winner_msg():
     print("Great Job! You did it!")
     print("       ___________      ")
@@ -112,7 +106,6 @@ def prints_winner_msg():
     print("           ) (          ")
     print("         _.' '._        ")
     print("        '-------'       ")
-
 
 def prints_loser_msg(secret_word):
     print("Oh, what a shame, you were smothered!")
@@ -166,10 +159,9 @@ def load_secret_word():
 
     file.close()
 
-    numero = random.randrange(0, len(words))
-    secret_word = words[numero].upper()
+    number = random.randrange(0, len(words))
+    secret_word = words[number].upper()
     return secret_word
-
 
 if(__name__ == "__main__"):
     play()
