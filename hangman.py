@@ -37,7 +37,7 @@ def play():
         print(wish_to_play)
     else:
         prints_loser_msg(secret_word)
-        decision = input("You lose! Would you like to try it again? Y/N:").lower()
+        decision = input("Game over! Would you like to try it again? Y/N:").lower()
         if(decision == "n" ):
           wish_to_play = False
         print(wish_to_play)
